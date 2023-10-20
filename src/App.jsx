@@ -1,8 +1,11 @@
-const { Router } = require("react-router-dom");
-
+import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
 function App(){
   return(
-    <h1>first passge</h1>
+    <Router>
+      <Routes>
+        <Route/>
+      </Routes>
+    </Router>
   );
 }
 export default App;
